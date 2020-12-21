@@ -1,5 +1,7 @@
 # Cadastro Simples de Pessoas
-
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/lucassilva996/CRUD-WebApi)
+![GitHub language count](https://img.shields.io/github/languages/count/lucassilva996/CRUD-WebApi?style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/lucassilva996/CRUD-WebApi?style=plastic)
 
 <p align="center">
   <img width="470" src="src/assets/to_readme/splashtogithub.png">
