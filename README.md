@@ -4,11 +4,11 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/lucassilva996/CRUD-WebApi?style=plastic)
 
 <p align="center">
-  <img width="470" src="src/assets/to_readme/index.png">
+  <img width="470" src="assets/to_readme/index.png">
 </p>
 
 <p align="center">
-  <img width="460" height="300" src="src/assets/to_readme/demo.gif">
+  <img width="460" height="300" src="assets/to_readme/demo.gif">
 </p>
 
 ## Descrição
