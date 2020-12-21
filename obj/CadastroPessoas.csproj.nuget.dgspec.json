@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/lucas/Documentos/dev/CadastroPessoas/CadastroPessoas.csproj": {}
+    "C:\\Users\\lucas\\OneDrive\\Documentos\\dev\\CRUD-WebApi\\CadastroPessoas.csproj": {}
   },
   "projects": {
-    "/home/lucas/Documentos/dev/CadastroPessoas/CadastroPessoas.csproj": {
+    "C:\\Users\\lucas\\OneDrive\\Documentos\\dev\\CRUD-WebApi\\CadastroPessoas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lucas/Documentos/dev/CadastroPessoas/CadastroPessoas.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Documentos\\dev\\CRUD-WebApi\\CadastroPessoas.csproj",
         "projectName": "CadastroPessoas",
-        "projectPath": "/home/lucas/Documentos/dev/CadastroPessoas/CadastroPessoas.csproj",
-        "packagesPath": "/home/lucas/.nuget/packages/",
-        "outputPath": "/home/lucas/Documentos/dev/CadastroPessoas/obj/",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\dev\\CRUD-WebApi\\CadastroPessoas.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\dev\\CRUD-WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/lucas/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,35 +42,31 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.1, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.0, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
-              "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.1, )"
             }
           },
           "imports": [
@@ -89,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

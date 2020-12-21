@@ -10,7 +10,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using CadastroPessoas.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.SqlServer;
+using Microsoft.EntityFrameworkCore.Sqlite;
+
 
 namespace CadastroPessoas
 {
@@ -28,7 +29,8 @@ namespace CadastroPessoas
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<Contexto>(opcoes => opcoes.UseSqlServer(Configuration.GetConnectionString("ConexaoDB")));
+            services.AddDbContext<Contexto>(options => options.UseSqlite(Configuration.GetConnectionString("ConexaoDB")));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,7 +57,7 @@ namespace CadastroPessoas
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Pessoas}/{action=Index}/{id?}");
             });
         }
     }
